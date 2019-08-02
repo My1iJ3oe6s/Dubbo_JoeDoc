@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.joes.com/schema/user"
+        xmlns:tns="http://www.joes.com/schema/user"
+        elementFormDefault="qualified">
+    <element name="user">
+        <complexType>
+            <attribute name="name" type="string"/>
+            <attribute name="age" type="integer"/>
+            <attribute name="sex" type="string"/>
+            <attribute name="address" type="string"/>
+        </complexType>
+    </element>
+</schema>
