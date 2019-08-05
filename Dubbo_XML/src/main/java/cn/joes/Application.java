@@ -17,7 +17,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class Application {
     public static void main(String[] args) {
         ConfigurableApplicationContext run = SpringApplication.run(Application.class, args);
-        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("user.xml");
+        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("classpath:user.xml");
         User user = (User) classPathXmlApplicationContext.getBean("user");
         System.out.println(user.toString());
     }

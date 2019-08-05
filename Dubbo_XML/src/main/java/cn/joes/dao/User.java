@@ -1,6 +1,7 @@
 package cn.joes.dao;
 
 import lombok.Data;
+import org.springframework.stereotype.Service;
 
 import java.io.Serializable;
 
@@ -10,6 +11,7 @@ import java.io.Serializable;
  * @author wanqiao
  */
 @Data
+@Service
 public class User implements Serializable {
 
     private String name;

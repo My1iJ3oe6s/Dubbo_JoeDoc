@@ -1,0 +1,4 @@
+cn\joes\Application.class
+cn\joes\service\UserBeanDefinitionParser.class
+cn\joes\dao\User.class
+cn\joes\service\UserNameSpaceHandler.class
