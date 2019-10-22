@@ -3,7 +3,7 @@ package cn.joes.service;
 import cn.joes.dao.User;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.xml.AbstractSingleBeanDefinitionParser;
-import org.springframework.util.StringUtils;
+import org.w3c.dom.Attr;
 import org.w3c.dom.Element;
 
 /**
@@ -24,17 +24,7 @@ public class UserBeanDefinitionParser extends AbstractSingleBeanDefinitionParser
         String age = element.getAttribute("age");
         String sex = element.getAttribute("sex");
         String address = element.getAttribute("address");
-        if (StringUtils.hasText(name)) {
-            builder.addPropertyValue("name", name);
-        }
-        if (StringUtils.hasText(age)) {
-            builder.addPropertyValue("age", age);
-        }
-        if (StringUtils.hasText(sex)) {
-            builder.addPropertyValue("sex", sex);
-        }
-        if (StringUtils.hasText(address)) {
-            builder.addPropertyValue("address", address);
-        }
+        Attr an = element.getAttributeNode("an");
+
     }
 }

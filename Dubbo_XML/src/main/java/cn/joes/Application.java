@@ -21,4 +21,6 @@ public class Application {
         User user = (User) classPathXmlApplicationContext.getBean("user");
         System.out.println(user.toString());
     }
+
+
 }

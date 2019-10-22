@@ -12,6 +12,20 @@
         <xsd:complexType>
             <xsd:complexContent>
                 <xsd:extension base="beans:identifiedType">
+                    <xsd:sequence>
+                        <xsd:element name="an">
+                            <xsd:complexType>
+                                <xsd:complexContent>
+                                    <xsd:extension base="beans:identifiedType">
+                                        <xsd:attribute name="name" type="xsd:string"/>
+                                        <xsd:attribute name="age" type="xsd:integer"/>
+                                        <xsd:attribute name="sex" type="xsd:string"/>
+                                        <xsd:attribute name="address" type="xsd:string"/>
+                                    </xsd:extension>
+                                </xsd:complexContent>
+                            </xsd:complexType>
+                        </xsd:element>
+                    </xsd:sequence>
                     <xsd:attribute name="name" type="xsd:string"/>
                     <xsd:attribute name="age" type="xsd:integer"/>
                     <xsd:attribute name="sex" type="xsd:string"/>

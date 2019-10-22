@@ -7,5 +7,7 @@
        http://www.joes.com/schema/user
        http://www.joes.com/schema/user.xsd">
 
-    <userMsg:user id="user" name="wanqiao" age="9" sex="man" address="shenz"/>
+    <userMsg:user id="1" name="user">
+        <userMsg:an id="1" name="123"></userMsg:an>
+    </userMsg:user>
 </beans>

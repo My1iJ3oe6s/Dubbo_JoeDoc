@@ -12,7 +12,7 @@ import java.io.Serializable;
  */
 @Data
 @Service
-public class User implements Serializable {
+public class AN implements Serializable {
 
     private String name;
 
@@ -21,7 +21,5 @@ public class User implements Serializable {
     private String sex;
 
     private String address;
-
-    private AN an;
 
 }
