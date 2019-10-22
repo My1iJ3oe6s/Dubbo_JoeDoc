@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Dubbo_JoeDoc.iml" filepath="$PROJECT_DIR$/Dubbo_JoeDoc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Dubbo_SPI/Dubbo_SPI.iml" filepath="$PROJECT_DIR$/Dubbo_SPI/Dubbo_SPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/Dubbo_XML/Dubbo_XML.iml" filepath="$PROJECT_DIR$/Dubbo_XML/Dubbo_XML.iml" />
     </modules>
   </component>

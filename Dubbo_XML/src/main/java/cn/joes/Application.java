@@ -18,7 +18,7 @@ public class Application {
     public static void main(String[] args) {
         ConfigurableApplicationContext run = SpringApplication.run(Application.class, args);
         ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext("classpath:user.xml");
-        User user = (User) classPathXmlApplicationContext.getBean("user");
+        User user = (User) classPathXmlApplicationContext.getBean("user1");
         System.out.println(user.toString());
     }
 

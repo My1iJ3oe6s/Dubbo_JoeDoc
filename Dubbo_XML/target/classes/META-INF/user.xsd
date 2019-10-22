@@ -13,7 +13,7 @@
             <xsd:complexContent>
                 <xsd:extension base="beans:identifiedType">
                     <xsd:sequence>
-                        <xsd:element name="an">
+                        <xsd:element name="an" minOccurs="0" maxOccurs="unbounded">
                             <xsd:complexType>
                                 <xsd:complexContent>
                                     <xsd:extension base="beans:identifiedType">

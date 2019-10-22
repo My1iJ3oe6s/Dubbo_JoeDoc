@@ -4,6 +4,7 @@ import lombok.Data;
 import org.springframework.stereotype.Service;
 
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * Created by myijoes on 2019/8/2.
@@ -22,6 +23,6 @@ public class User implements Serializable {
 
     private String address;
 
-    private AN an;
+    private List<AN> ans;
 
 }

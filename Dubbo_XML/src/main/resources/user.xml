@@ -7,7 +7,9 @@
        http://www.joes.com/schema/user
        http://www.joes.com/schema/user.xsd">
 
-    <userMsg:user id="1" name="user">
-        <userMsg:an id="1" name="123"></userMsg:an>
+    <userMsg:user id="user1" name="wanqiao">
+        <userMsg:an id="2" name="test"/>
+        <userMsg:an id="3" name="test1"/>
     </userMsg:user>
+
 </beans>
